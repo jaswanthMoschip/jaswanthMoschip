@@ -30,7 +30,7 @@ int main(void) {
 	display_do_init();
 	
 	for(looper=0; looper<10; ++looper) {
-		display_write_string("Hi am Anand");
+		display_write_string("Hi");
 		usleep(500000);
 		display_clear();
 
